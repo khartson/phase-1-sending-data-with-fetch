@@ -86,5 +86,5 @@ describe( "submitData()", () => {
     await submitData( name, email )
     expect( document.body.innerHTML )
       .to.include( message )
-  } )
-} )
+  })
+})
